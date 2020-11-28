@@ -1368,29 +1368,12 @@ header .main_menu .nav-item.active a.nav-link {
     padding-left: 0;
 }
 
-/**---- search bar menu ----**/
-
-.header_bottom_section .search_bar {
-    float: right;
-    width: 275px;
-    height: 70px;
-    background: #111428;
-}
-
-.header_bottom_section .search_bar {
-    float: right;
-    width: 280px;
-    height: 70px;
-    background: #eaeaea;
-    padding: 21px 25px;
-}
-
-.header_bottom_section .search_bar form {
+ form {
     float: left;
     width: 100%;
 }
 
-.header_bottom_section .search_bar form input.search_field {
+.header_bottom_section  form input.search_field {
 
     width: 100%;
     padding: 0;
@@ -1406,11 +1389,11 @@ header .main_menu .nav-item.active a.nav-link {
 }
 
 
-.header_bottom_section .search_bar form input.search_field:focus {
+.header_bottom_section  form input.search_field:focus {
     box-shadow: none !important;
 }
 
-.header_bottom_section .search_bar form button {
+.header_bottom_section  form button {
     position: absolute;
     width: 25px;
     padding: 0;
@@ -1422,10 +1405,7 @@ header .main_menu .nav-item.active a.nav-link {
     cursor: pointer;
 }
 
-.header_bottom_section .search_bar ::placeholder {
-    color: #bab6b6;
-    opacity: 1;
-}
+
 
 .site_information ul li, .site_information ul li a {
     font-size: 16px;
@@ -4549,7 +4529,7 @@ form#commant_form div.field textarea.custom_field {
     padding: 10px 30px;
     background: #e7e6e6;
     font-size: 17px;
-    color: #929292;
+    color: #000000;
     font-weight: 200;
     border: none;
     margin: 20px 0 0 0;
@@ -4562,7 +4542,7 @@ form#commant_form div.field textarea.custom_field {
     padding: 20px 30px;
     background: #e7e6e6;
     font-size: 17px;
-    color: #929292;
+    color: #0c0000;
     border: none;
     font-weight: 200;
     margin: 20px 0 0 0;
