@@ -10,7 +10,7 @@ def contact():
 
 @app.route("/training")
 def training():
-    return render_template('coaching.html')
+    return render_template('training.html')
 
 
 @app.route("/")
