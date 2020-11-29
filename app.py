@@ -8,6 +8,11 @@ def not_found_error(error):
     return render_template('topic.html', c_name="Page Not Found", image_name="notfound.png", topic=[])
 
 
+@app.errorhandler(500)
+def found_but_error(error):
+    return render_template('topic.html', c_name="Error at displaying", image_name="notfound.png", topic=[])
+
+
 def module_data(module):
     module_list = json.loads(open("data", "r").read())
     return module_list[module]
@@ -34,4 +39,4 @@ def index():
             "scenarios with adaptive pedagogy, so as to upgrade the student’s skillset at par with the industry " \
             "requirements. This has enabled our students to work with leading organizations like Amazon, Facebook, " \
             "Microsoft, Paytm, TCS, Accenture, Infy. "
-    return render_template('index.html', about = about)
+    return render_template('index.html',  about=about)
