@@ -1,0 +1,63 @@
+{
+	"aws": {
+		"name": "AWS",
+		"image": "aws.png",
+		"topic": ["elastic compute cloud", "elastic load balancer", "elastic block storage", "simple storage service",
+		"cloudfront", "relational database service", "virtual private cloud", "route 53", "identity & Access Management",
+		"cloud trail", "cloud watch", "lambda", "simple notification service", "codedeploy", "command line interface",
+		"elastic container service", "elastic file system", "auto scaling", "cloudformation", "ec2 image builder", "dynamodb",
+		"opsworks", "elasticsearch service", "inspector", "waf & shield", "aws cost explorer", "aws budgets", "simple email service",
+		"systems manager", "elastic ip"]
+	},
+
+    "terraform": {
+      "name":"TERRAFORM WITH AWS",
+      "image": "terraform1.png",
+      "topic": [ "What is terraform and its background", "Differences with CFN","Working with more than 1 providers","Installation",
+                "Root Directory structure","Terraform commands","Types of Blocks","Usage of blocks","Providers and Plugins","Terraform Variable types",
+                "Interpolation and Conditions","Working with built-in functions","Foreach and for loop","Dynamic blocks","Working with State file, locking of tfstate",
+                "Remote Backend","Terraform with AWS","Working with data sources","Using data for remote state files","Creating resources in Account B from Acc A",
+                "Working with more than 1 providers","Provisioners","Null resource","TF Workspaces","Working with Modules","Terraform import and other commands"]
+
+    },
+  "kubernetes": {
+      "name":"KUBERNETES",
+      "image": "kubernetes.png",
+      "topic": ["Container Orchestration", "Introduction to Kubernetes", "Kubernetes Architecture",
+                   "Installing Kubernetes – Minikube",
+                   "Installing Kubernetes – Multi-node Cluster", "Kubernetes Building Blocks", "Services",
+                   "Deploying a Stand-Alone Application",
+                   "Kubernetes Volume Management", "Deploying a Multi-Tier Application", "ConfigMaps and Secrets",
+                   "Using a ServiceAccount", "Ingress"]
+    },
+  "selenium": {
+      "name":"SELENIUM",
+      "image": "selenium.png",
+      "topic": [ "Basics of Manual Testing","Core Java","Automation need","Eclipse","TestNG","Basics of Selenium","Selenium IDE",
+                 "Selenium Webdriver (3.0)","Advanced Selenium Webdriver","Selenium Grid","Automation Framework","Advanced Automation Framework Understanding"]
+    },
+  "python": {
+      "name":"PYTHON",
+      "image": "py.png",
+      "topic": ["Programming Foundation Concepts", "Getting Started with Python 3.X", "Python 3.X installation Guide", "Introduction to Anaconda Python",
+                "Introduction to Jupyter Notebook","Introduction to Jet-Brain Pycharm IDE","Python Core Objects and Various Built-in Functions","Conditional Statements in Python",
+                "Loops in Python","Comprehension Technique in Python","User defined function and Class/Object Functions","Anonymous Lambda Functions","File Handling concept with Python",
+                "Python inbuilt Modules and packages","Python Whl Packaging","Exceptional Handling concepts", "Debugging Techniques","Object Oriented Python and implementation",
+                "Iterator, generator and Decorator","Frameworks Development Introduction","Database interface with Python","Package Installation for pypi","Introduction to JSON",
+                "Data Pre-processing","Requests and WebPage Scraping","Python Data Science Modules", "Introduction to Numpy and statistical Analysis","Introduction to pandas and data Analytics"]
+    },
+  "ai": {
+      "name":"AI & ML",
+      "image": "ai.png",
+      "topic": [ "Introduction to AI","Intelligent agents","Uninformed and informed search","Heuristic and meta-heuristics",
+                "Adversarial search","Constraint satisfaction problems","Machine learning introduction","Supervised and unsupervised learning",
+                "Linear models, Perceptron","knn, Neural networks","SVMs, decision trees","Markov decision processes","Reinforcement learning",
+                "Logical agent","Propositional logic and first order logic","AI applications"]
+    },
+  "security": {
+      "name":"NETWORK SECURITY",
+      "image": "cour1.png",
+      "topic": [ "Palo Alto Firewall", "Next-Generation Security Platform and Architecture", "Firewall Configuration",  "Security and NAT Policies",
+                 "App-ID", "Content-ID","User-ID", "URL Filtering","Monitoring and Reporting", "Security Best Practices"]
+    }
+}

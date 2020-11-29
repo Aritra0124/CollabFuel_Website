@@ -1,19 +1,17 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, json
 
 app = Flask(__name__)
 
 
 def module_data(module):
-    image_file = {"aws": "aws.png", "terraform": "terraform.png", "selenium": "selenium.png", "python": "py.png",
-                  "kubernates": "kubernates.png", "ai": "ai.png", "security": "cour1.png"}
-    return image_file[module]
+    module_list = json.loads(open("data", "r").read())
+    return module_list[module]
 
 
 @app.route("/topic/<topic_name>")
 def topic(topic_name):
-    topics = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    image_name = module_data(topic_name)
-    return render_template('topic.html', c_name=topic_name, topics=topics, image_name=image_name)
+    topic_data= module_data(topic_name)
+    return render_template('topic.html', c_name=topic_data["name"], image_name = topic_data["image"], topics = topic_data["topic"])
 
 
 @app.route("/contact")
