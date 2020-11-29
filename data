@@ -2,10 +2,7 @@
 	"aws": {
 		"name": "AWS",
 		"image": "aws.png",
-		"description":"Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over
-		175 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups,
-		largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.",
-
+		"description":"",
 		"topic": ["elastic compute cloud", "elastic load balancer", "elastic block storage", "simple storage service",
 		"cloudfront", "relational database service", "virtual private cloud", "route 53", "identity & Access Management",
 		"cloud trail", "cloud watch", "lambda", "simple notification service", "codedeploy", "command line interface",
@@ -17,8 +14,7 @@
     "terraform": {
       "name":"TERRAFORM WITH AWS",
       "image": "terraform1.png",
-      "description":"Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently.
-      Terraform can manage existing and popular service providers as well as custom in-house solutions.",
+      "description":"",
       "topic": [ "What is terraform and its background", "Differences with CFN","Working with more than 1 providers","Installation",
                 "Root Directory structure","Terraform commands","Types of Blocks","Usage of blocks","Providers and Plugins","Terraform Variable types",
                 "Interpolation and Conditions","Working with built-in functions","Foreach and for loop","Dynamic blocks","Working with State file, locking of tfstate",
@@ -29,8 +25,7 @@
   "kubernetes": {
       "name":"KUBERNETES",
       "image": "kubernetes.png",
-      "description":"Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications.
-      The open source project is hosted by the Cloud Native Computing Foundation.",
+      "description":"",
       "topic": ["Container Orchestration", "Introduction to Kubernetes", "Kubernetes Architecture",
                    "Installing Kubernetes – Minikube",
                    "Installing Kubernetes – Multi-node Cluster", "Kubernetes Building Blocks", "Services",
@@ -41,16 +36,14 @@
   "selenium": {
       "name":"SELENIUM",
       "image": "selenium.png",
-      "description":"Selenium is an umbrella project for a range of tools and libraries that enable and support the automation of web browsers.
-                    It provides extensions to emulate user interaction with browsers, a distribution server for scaling browser allocation,
-                    and the infrastructure for implementations of the W3C WebDriver specification that lets you write interchangeable code for all major web browsers.",
+      "description":"",
       "topic": [ "Basics of Manual Testing","Core Java","Automation need","Eclipse","TestNG","Basics of Selenium","Selenium IDE",
                  "Selenium Webdriver (3.0)","Advanced Selenium Webdriver","Selenium Grid","Automation Framework","Advanced Automation Framework Understanding"]
     },
   "python": {
       "name":"PYTHON",
       "image": "py.png",
-      "description":"Python is a programming language that lets you work more quickly and integrate your systems more effectively.",
+      "description":"",
       "topic": ["Programming Foundation Concepts", "Getting Started with Python 3.X", "Python 3.X installation Guide", "Introduction to Anaconda Python",
                 "Introduction to Jupyter Notebook","Introduction to Jet-Brain Pycharm IDE","Python Core Objects and Various Built-in Functions","Conditional Statements in Python",
                 "Loops in Python","Comprehension Technique in Python","User defined function and Class/Object Functions","Anonymous Lambda Functions","File Handling concept with Python",
@@ -61,8 +54,7 @@
   "ai": {
       "name":"AI & ML",
       "image": "ai.png",
-      "description":"Machine learning and artificial intelligence are not the same thing – BUT,
-      if you’re looking to create a narrow AI the easy way, machine learning is increasingly the only game in town.",
+      "description":"",
       "topic": [ "Introduction to AI","Intelligent agents","Uninformed and informed search","Heuristic and meta-heuristics",
                 "Adversarial search","Constraint satisfaction problems","Machine learning introduction","Supervised and unsupervised learning",
                 "Linear models, Perceptron","knn, Neural networks","SVMs, decision trees","Markov decision processes","Reinforcement learning",
@@ -71,9 +63,7 @@
   "security": {
       "name":"NETWORK SECURITY",
       "image": "cour1.png",
-      "description":"Network security consists of the policies and practices adopted to prevent and monitor
-      unauthorized access, misuse, modification, or denial of a computer network and network-accessible resources.
-      Network security involves the authorization of access to data in a network, which is controlled by the network administrator.",
+            "description":"",
       "topic": [ "Palo Alto Firewall", "Next-Generation Security Platform and Architecture", "Firewall Configuration",  "Security and NAT Policies",
                  "App-ID", "Content-ID","User-ID", "URL Filtering","Monitoring and Reporting", "Security Best Practices"]
     }

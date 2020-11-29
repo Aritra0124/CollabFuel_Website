@@ -40,3 +40,4 @@ def index():
             "requirements. This has enabled our students to work with leading organizations like Amazon, Facebook, " \
             "Microsoft, Paytm, TCS, Accenture, Infy. "
     return render_template('index.html',  about=about)
+
