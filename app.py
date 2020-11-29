@@ -25,4 +25,13 @@ def topic(topic_name):
 
 @app.route("/")
 def index():
-    return render_template('index.html')
+    about = "CollabFuel is the number one software training service provider for the students and professionals " \
+            "desiring to make a career in the Information Technology, Financial Technology, E-Commerce, " \
+            "and Data Analysis domain.The syllabus designed under the mentorship of IIT/IIM alumni, enables our " \
+            "students to respond to the upcoming job market, which has been marked with developments like Artificial " \
+            "Intelligence, Machine Learning, Edge and Cloud Computing, Block Chain, Quantum Computing, " \
+            "and Cyber Security.Our trainers are industry veterans, who bring their knowledge of real-life business " \
+            "scenarios with adaptive pedagogy, so as to upgrade the student’s skillset at par with the industry " \
+            "requirements. This has enabled our students to work with leading organizations like Amazon, Facebook, " \
+            "Microsoft, Paytm, TCS, Accenture, Infy. "
+    return render_template('index.html', about = about)
