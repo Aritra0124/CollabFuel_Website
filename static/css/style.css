@@ -630,8 +630,7 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .slide_cont {
-    position:
-     absolute;
+    position: relative;
     top: 415px;
     width: 100%;
 }
@@ -647,7 +646,7 @@ form#commant_form div.field textarea.custom_field {
 
 .slider_banner {
     position: relative;
-    text-align: center;
+    text-align: justify;
 }
 
 .slide_cont {
@@ -672,9 +671,9 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .slider_cont_inner p {
-
-    color: #fff;
-    font-size: 21px;
+    position: relative;
+    color: #32ff03;
+    font-size: 35px;
 
 }
 
@@ -1250,7 +1249,7 @@ header .main_menu .nav-item.active a.nav-link {
 }
 
 .header .container-fluid {
-    max-width: 1240px;
+    max-width: 2px;
 }
 
 .header-section {
@@ -4564,10 +4563,10 @@ form#commant_form div.field textarea.custom_field {
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 767px) {
-  body {
-    /* The file size of this background image is 93% smaller
-       to improve page load speed on mobile internet connections */
-    background-image: url(images/slide.jpg);
-  }
+@media only screen and (hover: none) and (pointer: coarse){
+
+.slide_cont{
+    display: none;
+    }
 }
+
