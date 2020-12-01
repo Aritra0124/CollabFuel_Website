@@ -4563,10 +4563,16 @@ form#commant_form div.field textarea.custom_field {
     margin-top: 20px;
 }
 
+.slide_cont{
+    display: block;
+    visibility: show;
+    }
+
 @media only screen and (hover: none) and (pointer: coarse){
 
 .slide_cont{
     display: none;
+    visibility: hidden;
     }
 }
 
